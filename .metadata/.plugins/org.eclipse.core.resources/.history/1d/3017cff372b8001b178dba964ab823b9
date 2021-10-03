@@ -1,0 +1,5 @@
+package src.br.com.BPS.cm.modelo;
+
+public class Tabuleiro {
+
+}

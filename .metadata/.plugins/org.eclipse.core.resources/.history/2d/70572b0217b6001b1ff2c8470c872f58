@@ -1,0 +1,33 @@
+package EstruturasDeControle.exercicioscontrole.copy;
+
+import java.util.Scanner;
+
+public class NumeroPrimo {
+	/**
+	 * 4. Criar um programa que receba um nuÌ?mero e diga se ele eÌ? um nuÌ?mero primo.
+	 */
+	public static void main(String[] args) {
+
+		int contadorDeDivisores = 0;
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("\nDigite um numero para verificar se Ã© primo:");
+		int numero = scanner.nextInt();
+
+		for (int i = 2; i < numero; i++) {
+			if (numero % i == 0) {
+				contadorDeDivisores++;
+			}
+		}
+
+		if (contadorDeDivisores == 0) {
+			System.out.println("\nO numero " + numero + " Ã© primo.");
+		} else {
+			System.out.println("\nO numero " + numero + " nÃ£o Ã© primo.");
+		}
+
+		scanner.close();
+
+	}
+
+}

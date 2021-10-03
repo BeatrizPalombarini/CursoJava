@@ -1,0 +1,16 @@
+package oo.encapsulamento.casaB;
+
+import oo.encapsulamento.casaA.Bia;
+
+public class Debora {
+
+
+	void testeAcessos() {		
+		Bia cunhada = new Bia();
+	
+		// System.out.println(cunhada.segredo);
+		// System.out.println(cunhada.facoDentroDeCasa);
+		// System.out.println(cunhada.formaDeFalar);
+		System.out.println(cunhada.todosSabem);
+	}
+}

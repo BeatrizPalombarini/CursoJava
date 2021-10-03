@@ -1,0 +1,5 @@
+package br.com.BPS.calculadora.modelo;
+
+public class Memoria {
+
+}
